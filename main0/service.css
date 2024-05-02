@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+/*style nav*/
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+}
+
+.logo {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 50px;
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+
+.menu a:hover {
+    color: #636e72;
+
+
+}
+
+.menu .active {
+    color: #636e72;
+}
+
+.navbar0 {
+    display: none;
+}
+
+/*style sectiion 1*/
+
+/*style sectiion 2*/
+.section_2 {
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.les_events {
+    margin: 0 50px;
+
+}
+
+.nom_de_event {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.section_3,
+.section_4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:1200px) {
+    .navBar {
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu ul {
+        display: none;
+    }
+
+    .navbar0 {
+        display: block;
+        float: left;
+        width: 200px;
+    }
+
+    .navBar .logo h1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .section_2,
+    .section_3,
+    .section_4 {
+        margin: 0 150px;
+        display: block;
+        font-size: 25px;
+        width: 1200px;
+    }
+
+    .les_events {
+        padding-top: 100px;
+        font-size: 60px;
+    }
+    .nom_de_event{
+        font-size: 90px;
+    }
+    
+
+    footer{
+        padding-top: 50px;
+        width: 1300px;
+        text-align: center;
+        align-items: center;
+        font-size: 50px;
+    }
+    .texte_3{
+        font-size: 70px;
+    }
+    .icon{
+        height: 50px;
+        width: 50px;
+    }
+    .texteF{
+        font-size: 50px;
+    }
+
+
+}
