@@ -146,6 +146,7 @@
 
 /*section 3*/
 .section_3{
+    position: relative;
     background-color: #000;
     height: 500px;
     display: flex;
@@ -171,6 +172,7 @@
         display: block;
         float: left;
         width: 200px;
+        font-size: 40px;
     }    
     .navBar .logo h1{
         font-size: 50px;
@@ -179,7 +181,8 @@
     
     /*style sectiion 1*/
     .section_1{
-        width: 1200px;    
+        width: 1200px; 
+        font-size: 70px;   
     }
     .section_1 .texte1{
        width: 1200px;
@@ -219,4 +222,8 @@
         font-size: 50px;
     }
     
-}        
+}    
+
+@media only screen and (min-width:1201px) and (max-width:1200px){
+
+}

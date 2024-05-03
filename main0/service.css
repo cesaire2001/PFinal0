@@ -59,8 +59,9 @@
 }
 
 .les_events {
-    margin: 0 50px;
-
+   align-items: center;
+   text-align: center;
+   padding: 0 50px;
 }
 
 .nom_de_event {
@@ -91,6 +92,7 @@
         display: block;
         float: left;
         width: 200px;
+        font-size: 40px;
     }
 
     .navBar .logo h1 {

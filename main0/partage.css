@@ -19,6 +19,7 @@
     font-size: 30px;
     color: white;
     text-decoration: none;
+
 }
 
 .menu a {
@@ -34,14 +35,18 @@
 
 .menu a:hover {
     color: #636e72;
+
+
 }
 
 .menu .active {
     color: #636e72;
 }
+
 .navbar0 {
     display: none;
 }
+
 
 /*style sectiion 1*/
 .section_1 {
@@ -291,7 +296,7 @@
     z-index: 2;
 }
 
-@-webkit-keyframes animar_fondo {
+@keyframes animar_fondo {
     from {
         -webkit-transform: scale(1) translate(0px);
         -moz-transform: scale(1) translate(0px);
@@ -472,74 +477,87 @@ button {
 }
 
 /*setcion_0*/
-.section_2{
+.section_2 {
     position: center;
     padding-top: 50px;
     text-align: center;
     align-items: center;
 
 }
-.faire_un_don{
+
+.faire_un_don {
     font-size: 20px;
     margin: 0 200px;
 
 }
-.donner{
+
+.donner {
     font-size: 50px;
 }
 
 
-@media only screen and (min-width:320px) and (max-width:1200px){
-    .navBar{
+@media only screen and (min-width:320px) and (max-width:1200px) {
+    .navBar {
         margin: 0;
         padding: 0;
     }
+
     .menu ul {
         display: none;
     }
+
     .navbar0 {
         display: block;
         float: left;
         width: 200px;
-    }    
-    .navBar .logo h1{
-        font-size: 50px;
-        font-weight: bold; 
+        font-size: 40px;
     }
-    .section_1{
+
+    .navBar .logo h1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .section_1 {
         width: 1200px;
     }
-    .section_2{
+
+    .section_2 {
         width: 1200px;
         height: 5700px;
     }
-    .faire_un_don{
+
+    .faire_un_don {
         font-size: 70px;
     }
-    form{
+
+    form {
         width: 1200px;
     }
-    .donner{
+
+    .donner {
         font-size: 90px;
         font-weight: bold;
     }
-    footer{
+
+    footer {
         padding-top: 50px;
         width: 1200px;
         text-align: center;
         align-items: center;
         font-size: 50px;
     }
-    .texte_3{
+
+    .texte_3 {
         font-size: 70px;
     }
-    .icon{
+
+    .icon {
         height: 50px;
         width: 50px;
     }
-    .texteF{
+
+    .texteF {
         font-size: 50px;
     }
-
-
 }

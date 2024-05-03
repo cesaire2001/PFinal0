@@ -190,6 +190,7 @@ button:hover::before {
     et en bas et de 100px à gauche et à droite.
 */
 .section_2 {
+    position: relative;
     padding-top: 100px;
     background-color: black;
     color: white;
@@ -215,7 +216,6 @@ button:hover::before {
  Elle est décalée de 200 pixels vers la gauche par rapport à sa position normale.
 */
 .section_3 {
-    position: relative;
     background-image: url(./photo/Humaaans\ -\ Study\ Online.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -224,17 +224,20 @@ button:hover::before {
     height: 600px;
     margin-left: 200px;
     text-align: center;
-    align-items: center;
+   
     padding-top: 150px;
    
 }
+
 .nom_de_event3{
     font-size: 30px;
-    font-weight: bold;
+    font-weight: bold;  
+    position: relative;
 }
 .evenement_3{
     font-size: 25px;
     padding-top: 25px;
+    
 }
 
 /*style sectiion 4*/
