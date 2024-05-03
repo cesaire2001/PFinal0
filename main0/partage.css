@@ -73,7 +73,7 @@
     position: relative;
     width: 100%;
     display: flex;
-    height: 100%;
+    height: 600px;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfd8dc+0,607d8b+100,b0bec5+100 */
     background: #cfd8dc;
     /* Old browsers */
@@ -111,7 +111,7 @@
     position: relative;
     float: left;
     width: 640px;
-    height: 280px;
+    height: 380px;
     overflow: hidden;
     background-color: #fff;
     box-shadow: 1px 10px 30px -10px rgba(0, 0, 0, 0.5);
@@ -123,7 +123,7 @@
     top: 0px;
     left: 0px;
     width: 320px;
-    height: 280px;
+    height: 380px;
     background-color: #eee;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -146,7 +146,7 @@
 
 .cont_forms_active_sign_up {
     box-shadow: 1px 10px 30px -10px rgba(0, 0, 0, 0.5);
-    height: 420px;
+    height: 500px;
     top: -60px;
     left: 320px;
     -webkit-transition: all 0.5s;
@@ -214,7 +214,7 @@
 .cont_info_log_sign_up {
     position: absolute;
     width: 640px;
-    height: 280px;
+    height: 580px;
     top: 0px;
     z-index: 1;
 }
@@ -476,24 +476,7 @@ button {
     cursor: pointer;
 }
 
-/*setcion_0*/
-.section_2 {
-    position: center;
-    padding-top: 50px;
-    text-align: center;
-    align-items: center;
 
-}
-
-.faire_un_don {
-    font-size: 20px;
-    margin: 0 200px;
-
-}
-
-.donner {
-    font-size: 50px;
-}
 
 
 @media only screen and (min-width:320px) and (max-width:1200px) {
@@ -520,24 +503,6 @@ button {
 
     .section_1 {
         width: 1200px;
-    }
-
-    .section_2 {
-        width: 1200px;
-        height: 5700px;
-    }
-
-    .faire_un_don {
-        font-size: 70px;
-    }
-
-    form {
-        width: 1200px;
-    }
-
-    .donner {
-        font-size: 90px;
-        font-weight: bold;
     }
 
     footer {
