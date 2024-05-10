@@ -146,7 +146,7 @@
 }
 
 /*section 3*/
-.section_3{
+.section_3 {
     position: relative;
     background-color: #000;
     height: 500px;
@@ -154,14 +154,16 @@
     flex-direction: column;
     font-size: 25px;
 }
-.texte_3{
+
+.texte_3 {
     margin: 10px 200px;
     color: white;
     align-items: center;
     text-align: center;
 }
+
 /*section_4*/
-.section_4{
+.section_4 {
     background-image: url(https://plus.unsplash.com/premium_photo-1680024883851-08648eabf141?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGVnbGlzZSUyMGNhdGhvbGlxdWV8ZW58MHx8MHx8fDA%3D);
     background-color: #000;
     background-repeat: no-repeat;
@@ -170,36 +172,41 @@
     height: 1000px;
 }
 
-@media only screen and (min-width:320px) and (max-width:1200px){
-    .navBar{
+@media only screen and (min-width:320px) and (max-width:1200px) {
+    .navBar {
         margin: 0;
         padding: 0;
     }
+
     .menu ul {
         display: none;
     }
+
     .navbar0 {
         display: block;
         float: left;
         width: 200px;
         font-size: 40px;
-    }    
-    .navBar .logo h1{
+    }
+
+    .navBar .logo h1 {
         font-size: 50px;
-        font-weight: bold; 
+        font-weight: bold;
     }
-    
+
     /*style sectiion 1*/
-    .section_1, .section_4{
-        width: 1200px; 
-        font-size: 70px;   
+    .section_1,
+    .section_4 {
+        width: 1200px;
+        font-size: 70px;
     }
-    .section_1 .texte1{
-       width: 1200px;
+
+    .section_1 .texte1 {
+        width: 1200px;
     }
-    
+
     /*style sectiion 2*/
-    .section_2{
+    .section_2 {
         padding-top: 100px;
         width: 1200px;
         height: 1500px;
@@ -208,28 +215,32 @@
         align-items: center;
         text-align: center;
     }
-    .section_3{
+
+    .section_3 {
         width: 1200px;
         height: 5000px;
-        
+
     }
-   
-    footer{
+
+    footer {
         padding-top: 50px;
         width: 1200px;
         text-align: center;
         align-items: center;
         font-size: 50px;
     }
-    .texte_3{
+
+    .texte_3 {
         font-size: 70px;
     }
-    .icon{
+
+    .icon {
         height: 50px;
         width: 50px;
     }
-    .texteF{
+
+    .texteF {
         font-size: 50px;
     }
-    
-}    
+
+}

@@ -59,9 +59,9 @@
 }
 
 .les_events {
-   align-items: center;
-   text-align: center;
-   padding: 0 50px;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
 }
 
 .nom_de_event {
@@ -113,26 +113,30 @@
         padding-top: 100px;
         font-size: 60px;
     }
-    .nom_de_event{
+
+    .nom_de_event {
         font-size: 90px;
     }
-    
 
-    footer{
+
+    footer {
         padding-top: 50px;
         width: 1300px;
         text-align: center;
         align-items: center;
         font-size: 50px;
     }
-    .texte_3{
+
+    .texte_3 {
         font-size: 70px;
     }
-    .icon{
+
+    .icon {
         height: 50px;
         width: 50px;
     }
-    .texteF{
+
+    .texteF {
         font-size: 50px;
     }
 
